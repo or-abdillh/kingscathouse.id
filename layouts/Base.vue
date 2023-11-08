@@ -13,5 +13,8 @@
         content="Jasa grooming kucing profesional dan penginapan kucing eksklusif di Banjarmasin. Kami memberikan perawatan terbaik untuk hewan peliharaan Anda." />
     <Meta property="og:image" content="/poster.png" />
     <RobotMeta />
+
+    <!-- main layout -->
+    <BaseNavigationBar></BaseNavigationBar>
     <slot />
 </template>

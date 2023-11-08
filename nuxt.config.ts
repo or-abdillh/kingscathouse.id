@@ -1,11 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     devtools: { enabled: false },
-    modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts", "nuxt-simple-robots"],
+    modules: [
+        "@nuxtjs/tailwindcss",
+        "@nuxtjs/google-fonts",
+        "nuxt-simple-robots",
+        "@nuxt/image"
+    ],
     googleFonts: {
         families: {
-            Raleway: true,
-            Nunito: true
+            Raleway: [400, 500, 600, 700],
+            Nunito: [300, 400, 500]
         },
         useStylesheet: true
     },

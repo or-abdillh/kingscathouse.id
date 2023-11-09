@@ -49,7 +49,7 @@
 // dummies
 const navItems: Array<{ title: string, id: string }> = [
     { title: "Beranda", id: "#home" },
-    { title: "Layanan", id: "#services" },
+    { title: "Layanan", id: "#service" },
     { title: "Tentang Kami", id: "#about" },
     { title: "Testimoni", id: "#testimony" },
     { title: "Kontak Kami", id: "#contact" },
